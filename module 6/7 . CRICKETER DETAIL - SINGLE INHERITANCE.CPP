@@ -12,7 +12,8 @@ class cricketer
 class batsman : public cricketer
 {
 	public:
-	int runs,total;
+	int runs,
+        static int total;
 	int avg_runs;
 
 	void bat_run()
