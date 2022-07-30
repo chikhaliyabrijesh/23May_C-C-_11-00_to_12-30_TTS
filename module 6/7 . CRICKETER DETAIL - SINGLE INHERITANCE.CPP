@@ -1,4 +1,4 @@
-#include<constream.h>
+8#include<constream.h>
 class cricketer
 {
 	public:
@@ -26,6 +26,7 @@ class batsman : public cricketer
 	}
 	void tot_avg()
 	{
+                total=0
 		total=total+runs[i];
 		avg_runs=total/5;
 	}
