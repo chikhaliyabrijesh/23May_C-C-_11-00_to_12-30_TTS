@@ -27,7 +27,7 @@ class batsman : public cricketer
 	}
 	void tot_avg()
 	{
-                total=0
+                total=0;
 		total=total+runs[i];
 		avg_runs=total/5;
 	}
